@@ -10,6 +10,18 @@
 
 Jangan sekadar menyalin kode. Ketik sendiri, ubah nilai, uji input batas, baca error, dan jelaskan kembali konsep.
 
+## Standar belajar untuk pemula absolut
+
+Sebelum mengerjakan setiap hari, ikuti urutan: **konteks nyata → visual block → algoritma → flowchart/pseudocode → prediksi output → kode → simulasi → debugging → evaluasi**.
+
+- Gunakan [Standar Pembelajaran Ramah Pemula](docs/PEDAGOGICAL-STANDARD.md) sebagai pola mengajar.
+- Gunakan [Tutorial Python Visual](docs/PYTHON-VISUAL-TUTORIAL.md) untuk konsep Python.
+- Gunakan [Tutorial Visual Block](docs/VISUAL-BLOCK-TUTORIAL.md) dan [Visual Lab Interaktif](visual-lab/index.html) untuk memahami alur.
+- Gunakan [Panduan Visual Rust](docs/RUST-VISUAL-GUIDE.md) saat mempelajari ownership, borrowing, Option, dan Result.
+- Terapkan [Evaluasi Mingguan](docs/LEARNING-ASSESSMENT.md).
+
+Untuk setiap hari, peserta harus bisa menjelaskan tujuan program dengan kata sendiri, menggambar alur, memprediksi minimal satu output, menjalankan kode, dan memperbaiki satu kesalahan. Jika belum mampu, ulangi konsep prasyarat. Jangan mengejar kalender dengan mengorbankan pemahaman.
+
 ---
 
 ## Hari 01: Setup Python dan VS Code
