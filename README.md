@@ -17,6 +17,7 @@ Kurikulum 8 minggu untuk pemula absolut, dengan pendekatan visual-first. Python 
 - [Setup VS Code dan Android](docs/SETUP.md)
 - [Panduan belajar via Android](docs/ANDROID-LEARNING.md)
 - [Silabus Rust](docs/SYLLABUS.md)
+- [Embedded Rust untuk ESP32 (jalur lanjutan)](docs/EMBEDDED-RUST-ESP32.md)
 - [Progres belajar](PROGRESS.md)
 - [Proyek akhir](capstone/README.md)
 
@@ -24,7 +25,7 @@ Kurikulum 8 minggu untuk pemula absolut, dengan pendekatan visual-first. Python 
 
 **Konteks nyata → Visual Block → Algoritma → Flowchart/Pseudocode → Prediksi → Kode → Simulasi → Debugging → Evaluasi.**
 
-Visual Lab merupakan simulator logika edukatif, bukan compiler Python/Rust. Kode harus tetap dijalankan di interpreter/compiler yang sesuai. Capstone awal memakai data simulasi; integrasi perangkat fisik dan deployment produksi adalah tahap lanjutan.
+Visual Lab merupakan simulator logika edukatif, bukan compiler Python/Rust. Kode harus tetap dijalankan di interpreter/compiler yang sesuai. Capstone awal memakai data simulasi; integrasi perangkat fisik dan deployment produksi adalah tahap lanjutan. Setelah fondasi Rust selesai, lanjutkan ke [Embedded Rust untuk ESP32](docs/EMBEDDED-RUST-ESP32.md) untuk praktik firmware pada mikrokontroler.
 
 ## Publikasi Visual Lab
 
