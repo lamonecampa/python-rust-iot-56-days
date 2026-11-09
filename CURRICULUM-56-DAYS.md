@@ -26,6 +26,14 @@ Untuk setiap hari, peserta harus bisa menjelaskan tujuan program dengan kata sen
 
 ## Hari 01: Setup Python dan VS Code
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[MULAI] → [BUKA VS CODE] → [JALANKAN PYTHON] → [LIHAT OUTPUT]`
+
+**Pertanyaan prediksi:** Bisakah peserta membedakan editor, interpreter, dan terminal?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -57,6 +65,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 02: Output, input, dan komentar
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[MULAI] → [INPUT nama] → [OUTPUT salam] → [SELESAI]`
+
+**Pertanyaan prediksi:** Apa yang terjadi jika pengguna mengetik nama berbeda?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -90,6 +106,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 03: Variabel dan tipe data
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[NILAI sensor] → [SIMPAN ke variabel] → [BACA kembali nilai]`
+
+**Pertanyaan prediksi:** Apa perbedaan nama variabel dan nilai yang disimpan?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -121,6 +145,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 04: Operator aritmetika
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[angka A] + [angka B] → [PROSES hitung] → [OUTPUT hasil]`
+
+**Pertanyaan prediksi:** Prediksi hasil 12 / 4 dan 12 // 5.
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -154,6 +186,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 05: Konversi dan validasi input
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[INPUT teks angka] → [VALIDASI] → [KONVERSI] → [OUTPUT angka]`
+
+**Pertanyaan prediksi:** Apa yang harus dilakukan jika input berisi huruf?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -185,6 +225,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 06: String dan formatting
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[TEKS] → [GABUNG/FORMAT] → [OUTPUT pesan sensor]`
+
+**Pertanyaan prediksi:** Mengapa angka dan teks perlu diformat dengan benar?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -218,6 +266,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 07: Boolean dan operator logika
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[NILAI] → [UJI benar/salah] → [HASIL boolean]`
+
+**Pertanyaan prediksi:** Apa hasil dari 30 > 35 dan 40 >= 35?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -249,6 +305,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 08: Percabangan if elif else
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[INPUT suhu] → ◇ suhu >= 35? ◇ → [YA: WASPADA] / [TIDAK: NORMAL]`
+
+**Pertanyaan prediksi:** Uji tepat pada batas 35, bukan hanya 34 dan 36.
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -282,6 +346,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 09: Perulangan for dan range
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[MULAI] → [ULANGI untuk setiap angka] → [OUTPUT] → [SELESAI]`
+
+**Pertanyaan prediksi:** Mengapa range(1, 6) tidak menghasilkan angka 6?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -313,6 +385,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 10: Perulangan while dan kontrol
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[CEK kondisi] → [JIKA benar: jalankan] → [UBAH kondisi] ↺`
+
+**Pertanyaan prediksi:** Apa risiko jika kondisi while tidak pernah berubah?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -346,6 +426,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 11: List dan operasi koleksi
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA suhu] → [TAMBAH item] → [AKSES indeks] → [OUTPUT]`
+
+**Pertanyaan prediksi:** Mengapa item pertama list berada pada indeks 0?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -377,6 +465,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 12: Tuple, set, dan unpacking
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA berurutan] → [TUPLE] / [DATA unik] → [SET] → [UNPACK]`
+
+**Pertanyaan prediksi:** Kapan data unik lebih tepat disimpan sebagai set?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -410,6 +506,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 13: Dictionary dan data terstruktur
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[PAKET SENSOR] → [KUNCI: id/suhu/status] → [AMBIL nilai berdasarkan kunci]`
+
+**Pertanyaan prediksi:** Apa yang terjadi jika key yang diminta tidak tersedia?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -441,6 +545,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 14: Fungsi dan return
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[INPUT] → [PANGGIL fungsi] → [PROSES] → [RETURN hasil]`
+
+**Pertanyaan prediksi:** Bedakan print dengan return.
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -474,6 +586,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 15: Parameter dan modularisasi
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[PROGRAM utama] → [IMPORT modul] → [PANGGIL fungsi]`
+
+**Pertanyaan prediksi:** Mengapa kode dipisah ke fungsi atau modul?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -505,6 +625,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 16: File teks dan pathlib
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[BUKA file] → [BACA/TULIS] → [TUTUP otomatis]`
+
+**Pertanyaan prediksi:** Apa perbedaan mode baca, tulis, dan tambah?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -538,6 +666,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 17: CSV untuk data sensor
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[FILE CSV] → [BACA baris] → [AMBIL kolom] → [OUTPUT record]`
+
+**Pertanyaan prediksi:** Bagaimana jika ada kolom yang kosong?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -569,6 +705,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 18: JSON untuk pertukaran data
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA dictionary] → [SERIALISASI JSON] → [TEKS JSON] → [PARSE kembali]`
+
+**Pertanyaan prediksi:** Mengapa JSON berguna untuk pertukaran data?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -602,6 +746,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 19: Exception dan debugging
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[OPERASI berisiko] → ◇ berhasil? ◇ → [LANJUT] / [TANGANI ERROR]`
+
+**Pertanyaan prediksi:** Mengapa error perlu ditangani secara spesifik?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -633,6 +785,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 20: Virtual environment dan pip
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[PROYEK] → [BUAT venv] → [INSTALL paket] → [JALANKAN program]`
+
+**Pertanyaan prediksi:** Mengapa dependency antarproyek sebaiknya dipisahkan?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -666,6 +826,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 21: Datetime dan timestamp
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[WAKTU pembacaan] → [PARSE timestamp] → [URUTKAN waktu]`
+
+**Pertanyaan prediksi:** Mengapa timestamp dan zona waktu perlu konsisten?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -697,6 +865,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 22: OOP dasar dengan class
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA sensor] → [BUAT objek Sensor] → [PANGGIL method]`
+
+**Pertanyaan prediksi:** Bedakan class sebagai rancangan dan object sebagai instance.
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -730,6 +906,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 23: NumPy untuk komputasi numerik
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[ARRAY angka] → [OPERASI NumPy] → [HASIL numerik]`
+
+**Pertanyaan prediksi:** Apa bedanya operasi pada array dan list biasa?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -761,6 +945,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 24: Pandas DataFrame
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA tabel] → [DataFrame] → [PILIH kolom/baris] → [RINGKASAN]`
+
+**Pertanyaan prediksi:** Apa arti baris dan kolom pada DataFrame?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -794,6 +986,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 25: Data cleaning dengan Pandas
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA mentah] → [CEK kosong/duplikat/rentang] → [DATA bersih]`
+
+**Pertanyaan prediksi:** Mengapa data tidak boleh langsung dianalisis sebelum diperiksa?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -825,6 +1025,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 26: Matplotlib time-series
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA waktu + suhu] → [PLOT] → [GRAFIK time-series]`
+
+**Pertanyaan prediksi:** Apa yang ditampilkan sumbu X dan Y?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -858,6 +1066,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 27: Statistik dan deteksi outlier
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA] → [HITUNG statistik] → [BANDINGKAN nilai ekstrem] → [TINJAU outlier]`
+
+**Pertanyaan prediksi:** Apakah setiap outlier pasti kesalahan sensor?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Python | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -889,6 +1105,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 ---
 
 ## Hari 28: Mini proyek analisis sensor
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[CSV] → [BERSIHKAN] → [ANALISIS] → [GRAFIK] → [LAPORAN]`
+
+**Pertanyaan prediksi:** Dapatkah peserta menjelaskan sumber data dan batas kesimpulannya?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Python | **Durasi:** 60–120 menit
 
@@ -922,6 +1146,14 @@ Kembangkan contoh menjadi program mini terkait pembacaan sensor. Pastikan satuan
 
 ## Hari 29: Instalasi Rust dan Cargo
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[INSTALL rustup] → [BUAT Cargo project] → [cargo run] → [OUTPUT]`
+
+**Pertanyaan prediksi:** Apa perbedaan rustc dan Cargo?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -953,6 +1185,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 30: Variabel dan mutability
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[NILAI] → [let immutable] / [let mut mutable] → [GUNAKAN nilai]`
+
+**Pertanyaan prediksi:** Mengapa variabel Rust tidak dapat diubah tanpa mut?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -986,6 +1226,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 31: Tipe scalar dan compound
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[NILAI] → [PILIH tipe] → [COMPILER memeriksa]`
+
+**Pertanyaan prediksi:** Kapan memakai integer, float, bool, atau tuple?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1017,6 +1265,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 32: Operator dan ekspresi
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[EKSPRESI] → [OPERATOR] → [HASIL bertipe]`
+
+**Pertanyaan prediksi:** Mengapa operasi dengan tipe berbeda bisa membutuhkan konversi?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1050,6 +1306,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 33: if, loop, dan kontrol alur
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[KONDISI] → [if/else atau loop] → [ALUR program]`
+
+**Pertanyaan prediksi:** Apa perbedaan loop yang berhenti berdasarkan kondisi dan rentang?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1081,6 +1345,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 34: Fungsi dan return type
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[ARGUMEN] → [FUNGSI] → [RETURN type] → [HASIL]`
+
+**Pertanyaan prediksi:** Mengapa tipe hasil fungsi harus sesuai deklarasi?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1114,6 +1386,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 35: String, String, dan &str
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[TEKS literal] → [&str] / [String] → [GUNAKAN teks]`
+
+**Pertanyaan prediksi:** Apa perbedaan string slice dan String yang memiliki buffer?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1145,6 +1425,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 36: Vector dan iterasi
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[Vec data] → [PUSH item] → [ITERASI] → [OUTPUT]`
+
+**Pertanyaan prediksi:** Mengapa Vec cocok untuk jumlah data yang bertambah?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1178,6 +1466,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 37: Ownership dan move
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[sensor_a memiliki String] → [MOVE] → [sensor_b menjadi pemilik]`
+
+**Pertanyaan prediksi:** Mengapa sensor_a tidak dapat memakai nilai setelah move?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1209,6 +1505,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 38: Borrowing dan references
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[PEMILIK data] → [&data dipinjam] → [FUNGSI membaca] → [PEMILIK tetap memakai]`
+
+**Pertanyaan prediksi:** Apa perbedaan meminjam reference dan memindahkan ownership?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1242,6 +1546,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 39: Slices dan lifetime pengantar
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA] → [SLICE bagian data] → [REFERENCE harus tetap valid]`
+
+**Pertanyaan prediksi:** Mengapa reference tidak boleh hidup lebih lama dari data yang dirujuk?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1273,6 +1585,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 40: Struct dan impl
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[Sensor] → [FIELD id/suhu/status] → [INSTANCE]`
+
+**Pertanyaan prediksi:** Mengapa beberapa nilai yang berkaitan dikelompokkan dalam struct?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1306,6 +1626,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 41: Enum, Option, dan match
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[HASIL mungkin ada] → [Some(value)] / [None] → [match]`
+
+**Pertanyaan prediksi:** Apa tindakan program jika pembacaan sensor belum tersedia?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1337,6 +1665,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 42: HashMap dan koleksi
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[Vec nilai] → [HashMap key/value] → [AMBIL berdasarkan key]`
+
+**Pertanyaan prediksi:** Kapan HashMap lebih cocok daripada Vec?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1370,6 +1706,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 43: Traits dan generics pengantar
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[TIPE umum] → [TRAIT sebagai perilaku] → [FUNGSI generik]`
+
+**Pertanyaan prediksi:** Masalah apa yang diselesaikan trait tanpa menggandakan fungsi?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1401,6 +1745,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 44: Result dan error handling
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[OPERASI] → [Ok(data)] / [Err(error)] → [MATCH] → [TINDAKAN]`
+
+**Pertanyaan prediksi:** Apa beda Option yang mungkin kosong dan Result yang mungkin gagal?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1434,6 +1786,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 45: Modul dan visibility
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[FILE utama] → [MODUL] → [PUBLIK/PRIVAT] → [AKSES fungsi]`
+
+**Pertanyaan prediksi:** Mengapa tidak semua item perlu dibuat pub?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1465,6 +1825,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 46: File I/O dan JSONL
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[PATH file] → [BACA] → [PROSES baris] → [TULIS JSONL]`
+
+**Pertanyaan prediksi:** Apa risiko jika file tidak ditemukan atau tidak bisa ditulis?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1498,6 +1866,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 47: Serde JSON serialisasi
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[STRUCT data] → [SERDE] → [JSON] → [SERDE] → [STRUCT kembali]`
+
+**Pertanyaan prediksi:** Mengapa nama dan tipe field harus konsisten?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1529,6 +1905,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 48: Unit testing dan cargo fmt
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[FUNGSI] → [UNIT TEST] → [ASSERT hasil] → [LULUS/GAGAL]`
+
+**Pertanyaan prediksi:** Apa yang dibuktikan oleh unit test dan apa yang belum dibuktikan?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Rust | **Durasi:** 60–120 menit
 
@@ -1562,6 +1946,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 
 ## Hari 49: Mini proyek Rust collector
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[SIMULASI sensor] → [VALIDASI] → [SERIALISASI] → [SIMPAN JSONL]`
+
+**Pertanyaan prediksi:** Apakah collector ini membaca perangkat fisik atau data simulasi?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Rust | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1593,6 +1985,14 @@ Kembangkan contoh dengan tipe eksplisit, penanganan error, dan pengujian. Jangan
 ---
 
 ## Hari 50: Desain arsitektur dan kontrak data
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[SUMBER data] → [KONTRAK field/tipe/satuan] → [RUST] → [JSONL] → [PYTHON]`
+
+**Pertanyaan prediksi:** Mengapa kedua program harus sepakat tentang nama field dan satuan?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
@@ -1626,6 +2026,14 @@ Terapkan konsep pada pipeline Rust → JSONL → Python. Dokumentasikan apakah d
 
 ## Hari 51: Generator data sensor dengan Rust
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[NILAI simulasi] → [RUST generator] → [RECORD sensor]`
+
+**Pertanyaan prediksi:** Bagaimana membedakan data simulasi dari data perangkat nyata?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1657,6 +2065,14 @@ Terapkan konsep pada pipeline Rust → JSONL → Python. Dokumentasikan apakah d
 ---
 
 ## Hari 52: Validasi dan serialisasi JSONL
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[RECORD] → [CEK field dan rentang] → [VALID] / [REJECT] → [JSONL]`
+
+**Pertanyaan prediksi:** Apa yang harus dilakukan pada record yang tidak valid?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
@@ -1690,6 +2106,14 @@ Terapkan konsep pada pipeline Rust → JSONL → Python. Dokumentasikan apakah d
 
 ## Hari 53: Membaca JSONL dengan Python
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[JSONL] → [BACA per baris] → [PARSE JSON] → [DATA terstruktur]`
+
+**Pertanyaan prediksi:** Mengapa satu baris rusak tidak boleh diam-diam dianggap valid?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1721,6 +2145,14 @@ Terapkan konsep pada pipeline Rust → JSONL → Python. Dokumentasikan apakah d
 ---
 
 ## Hari 54: Analisis data dengan Pandas
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA terstruktur] → [PANDAS] → [BERSIHKAN] → [RINGKAS]`
+
+**Pertanyaan prediksi:** Apakah ringkasan statistik sesuai jumlah record valid?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
@@ -1754,6 +2186,14 @@ Terapkan konsep pada pipeline Rust → JSONL → Python. Dokumentasikan apakah d
 
 ## Hari 55: Grafik dan ekspor laporan
 
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[DATA waktu] → [PLOT] → [EKSPOR grafik/laporan]`
+
+**Pertanyaan prediksi:** Apakah label, satuan, dan rentang sumbu jelas?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
+
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
 ### Tujuan dan konsep
@@ -1785,6 +2225,14 @@ Terapkan konsep pada pipeline Rust → JSONL → Python. Dokumentasikan apakah d
 ---
 
 ## Hari 56: Pengujian end-to-end dan demo
+
+### Jembatan visual untuk pemula
+
+**Alur blok:** `[RUST menghasilkan JSONL] → [PYTHON membaca] → [VALIDASI] → [ANALISIS] → [DEMO]`
+
+**Pertanyaan prediksi:** Bisakah peserta menunjukkan bukti bahwa setiap tahap berhasil?
+
+**Cara belajar:** gambarkan ulang alur ini, jelaskan setiap blok dengan kata sendiri, lalu cocokkan dengan kode pada bagian praktik.
 
 **Fase:** Integrasi | **Durasi:** 60–120 menit
 
