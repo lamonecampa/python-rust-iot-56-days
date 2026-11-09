@@ -5,6 +5,8 @@
 **Durasi:** 28 hari, 1–2 jam/hari  
 **Pendekatan:** 30% konsep, 50% praktik terarah, 20% debugging dan refleksi
 
+**Metode pemula:** konteks nyata → visual block → flowchart → pseudocode → prediksi → kode → debugging → evaluasi. Lihat [Standar Pembelajaran](PEDAGOGICAL-STANDARD.md) dan [Panduan Visual Rust](RUST-VISUAL-GUIDE.md).
+
 ## 1. Rasional dan batas capaian
 
 Rust dipelajari sebagai bahasa untuk membangun komponen yang membutuhkan performa, kontrol sumber daya, dan keandalan. Python tetap digunakan untuk eksplorasi data, statistik, visualisasi, dan eksperimen machine learning. Pembagian tugas ini lebih realistis daripada memaksakan seluruh pekerjaan data science ke Rust sejak awal.
