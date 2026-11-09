@@ -151,3 +151,12 @@ Materi berikut tidak dipaksakan ke jalur pemula. Ambil setelah peserta nyaman de
 Urutan belajar utama mengikuti silabus dan tutorial lokal di repositori ini. Gunakan The Rust Book untuk konsep, Rust by Example untuk variasi contoh, ZTM untuk latihan tambahan, dan Kemal Codes untuk melihat bagaimana konsep dipakai dalam aplikasi lebih besar. Artikel Medium digunakan sebagai orientasi topik, lalu verifikasi implementasi melalui dokumentasi resmi.
 
 Jangan menyalin proyek besar sebelum memahami dependensi, struktur, dan alur error-nya. Target program ini adalah kompetensi yang dapat dibuktikan melalui kode dan pengujian, bukan jumlah tutorial yang selesai ditonton.
+
+
+## 10. Jalur lanjutan: Embedded Rust pada ESP32
+
+Setelah Hari 56 dan fondasi Rust dikuasai, peserta dapat mengambil jalur lanjutan 14 sesi untuk membuat firmware ESP32. Materi meliputi `no_std`, target chip, toolchain Espressif, GPIO, tombol, PWM, ADC, UART, I2C, SPI, timer, interrupt, dan pengiriman telemetry.
+
+Jalur ini **tidak dimasukkan ke target kelulusan 56 hari**, karena setup dan debugging perangkat fisik memerlukan waktu serta board yang spesifik. ESP32 klasik dan ESP32-C3 juga memakai target arsitektur berbeda. ESP8266 tidak boleh diasumsikan kompatibel dengan `esp-hal`.
+
+Gunakan [Modul Embedded Rust untuk ESP32](EMBEDDED-RUST-ESP32.md) sebagai panduan praktik, termasuk tujuan sesi, contoh LED, proyek sensor node, batas dukungan, dan rubrik.
