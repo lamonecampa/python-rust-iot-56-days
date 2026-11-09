@@ -2,6 +2,8 @@
 
 Panduan praktik Rust untuk peserta yang sudah menyelesaikan Python dasar. Materi ini dirancang untuk Hari 29–49, lalu dilanjutkan integrasi pada Hari 50–56.
 
+**Untuk pemula:** sebelum membaca contoh kode, buka [Panduan Visual Konsep Rust](RUST-VISUAL-GUIDE.md). Ikuti juga [Standar Pembelajaran Ramah Pemula](PEDAGOGICAL-STANDARD.md). Ownership, borrowing, dan lifetime harus dipahami melalui diagram pemilik/reference dan penelusuran langkah demi langkah, bukan hafalan definisi.
+
 **Waktu:** 1–2 jam per hari  
 **Editor:** VS Code  
 **Toolchain:** rustup, rustc, Cargo  
