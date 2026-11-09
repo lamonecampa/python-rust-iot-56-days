@@ -25,3 +25,7 @@ Kurikulum 8 minggu untuk pemula absolut, dengan pendekatan visual-first. Python 
 **Konteks nyata → Visual Block → Algoritma → Flowchart/Pseudocode → Prediksi → Kode → Simulasi → Debugging → Evaluasi.**
 
 Visual Lab merupakan simulator logika edukatif, bukan compiler Python/Rust. Kode harus tetap dijalankan di interpreter/compiler yang sesuai. Capstone awal memakai data simulasi; integrasi perangkat fisik dan deployment produksi adalah tahap lanjutan.
+
+## Publikasi Visual Lab
+
+Workflow GitHub Actions tersedia di `.github/workflows/deploy-visual-lab.yml`. Untuk mengaktifkan publikasi pertama kali, buka **Repository Settings → Pages → Build and deployment → Source: GitHub Actions**. Setelah workflow berhasil, alamat Pages proyek biasanya `https://lamonecampa.github.io/python-rust-iot-56-days/`. Alamat tersebut belum dinyatakan aktif sampai deployment sukses terlihat pada tab Actions.
