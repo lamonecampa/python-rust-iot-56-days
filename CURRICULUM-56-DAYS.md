@@ -20,6 +20,8 @@ Sebelum mengerjakan setiap hari, ikuti urutan: **konteks nyata → visual block 
 - Gunakan [Panduan Visual Rust](docs/RUST-VISUAL-GUIDE.md) saat mempelajari ownership, borrowing, Option, dan Result.
 - Terapkan [Evaluasi Mingguan](docs/LEARNING-ASSESSMENT.md).
 
+Setelah menyelesaikan 56 hari, peserta yang ingin mengembangkan firmware mikrokontroler dapat melanjutkan ke [jalur Embedded Rust untuk ESP32](docs/EMBEDDED-RUST-ESP32.md). Jalur ini bersifat lanjutan dan tidak menggantikan urutan 56 hari.
+
 Untuk setiap hari, peserta harus bisa menjelaskan tujuan program dengan kata sendiri, menggambar alur, memprediksi minimal satu output, menjalankan kode, dan memperbaiki satu kesalahan. Jika belum mampu, ulangi konsep prasyarat. Jangan mengejar kalender dengan mengorbankan pemahaman.
 
 ---
