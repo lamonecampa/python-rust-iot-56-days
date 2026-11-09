@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Lab Pemula | Python & Rust</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#182230;background:#f4f7fb}*{box-sizing:border-box}body{margin:0}header{background:#172554;color:white;padding:24px 5vw}header h1{margin:0 0 8px;font-size:clamp(1.5rem,4vw,2.3rem)}main{max-width:1100px;margin:24px auto;padding:0 16px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{background:white;border:1px solid #dbe3ef;border-radius:14px;padding:18px;box-shadow:0 3px 12px #1725540b}.wide{grid-column:1/-1}label{display:block;font-weight:650;margin:12px 0 6px}select,input{font:inherit;padding:10px;border:1px solid #b8c5d8;border-radius:8px;width:100%}.blocks{display:flex;flex-direction:column;align-items:center;gap:8px;margin:18px 0}.block{padding:12px 16px;border-radius:10px;background:#e8efff;border:2px solid #9db7ed;width:min(100%,360px);text-align:center;font-weight:650}.block.process{background:#e1f5f0;border-color:#79c9b5}.block.decision{background:#fff2d8;border-color:#e7bd67}.block.active{outline:4px solid #2563eb;transform:scale(1.02)}.arrow{color:#64748b}.result{padding:14px;border-radius:10px;background:#eef4ff;font-weight:700}.code{white-space:pre-wrap;background:#101827;color:#e5edf8;border-radius:10px;padding:14px;overflow:auto;font: .9rem ui-monospace,monospace}.btn{border:0;background:#1d4ed8;color:white;padding:11px 16px;border-radius:9px;font:inherit;font-weight:650;cursor:pointer}.btn.secondary{background:#475569}.small{color:#536176;font-size:.92rem;line-height:1.5}.quiz{border-top:1px solid #e2e8f0;margin-top:16px;padding-top:12px}footer{max-width:1100px;margin:0 auto 30px;padding:0 16px;color:#536176}@media(max-width:760px){main{grid-template-columns:1fr}.wide{grid-column:auto}}
+</style>
+</head>
+<body>
+<header><h1>Visual Lab: Belajar Logika Pemrograman</h1><p>Ubah nilai, jalankan alur blok, prediksi hasil, lalu bandingkan dengan kode.</p></header>
+<main>
+<section class="panel">
+<h2>1. Pilih latihan</h2>
+<label for="topic">Topik</label><select id="topic"><option value="temperature">Keputusan: alarm suhu</option><option value="loop">Perulangan: hitung 1 sampai 5</option><option value="input">Input dan output: salam</option></select>
+<div id="controls">
+<label for="temp">Nilai suhu (°C)</label><input id="temp" type="range" min="20" max="50" step="0.5" value="37.5"><p><strong id="tempVal">37.5 °C</strong></p>
+</div>
+<button class="btn" id="run">Jalankan blok</button> <button class="btn secondary" id="reset">Reset</button>
+<p class="small">Lab ini mensimulasikan logika. Ia tidak mengompilasi atau menjalankan kode Python/Rust.</p>
+</section>
+<section class="panel">
+<h2>2. Visual block</h2><div id="blocks" class="blocks" aria-live="polite"></div>
+<div class="result" id="result">Belum dijalankan. Ubah input, lalu tekan Jalankan blok.</div>
+</section>
+<section class="panel">
+<h2>3. Pseudocode</h2><pre class="code" id="pseudo"></pre>
+</section>
+<section class="panel">
+<h2>4. Kode pembanding</h2>
+<label for="language">Bahasa</label><select id="language"><option value="python">Python</option><option value="rust">Rust</option></select>
+<pre class="code" id="code"></pre>
+</section>
+<section class="panel wide">
+<h2>5. Coba prediksi</h2><p id="question">Jika suhu 37.5°C, status apa yang akan dihasilkan?</p>
+<div class="quiz"><label for="answer">Jawaban</label><select id="answer"><option value="">Pilih jawaban</option><option>NORMAL</option><option>WASPADA</option><option>BAHAYA</option><option>Program selesai</option></select><button class="btn" id="check">Periksa jawaban</button><p id="feedback" aria-live="polite"></p></div>
+</section>
+</main>
+<footer>Materi pendamping kurikulum Python & Rust 56 hari. Untuk belajar compiler sebenarnya, jalankan kode pada Python atau Cargo di lingkungan yang sesuai.</footer>
+<script>
+const $=id=>document.getElementById(id);let lastStatus="";
+function status(t){return t>=40?"BAHAYA":t>=35?"WASPADA":"NORMAL"}
+function block(label,kind=""){const d=document.createElement("div");d.className="block "+kind;d.textContent=label;return d}
+function arrow(){const d=document.createElement("div");d.className="arrow";d.textContent="↓";return d}
+function render(){
+ const topic=$("topic").value, lang=$("language").value, t=Number($("temp").value), b=$("blocks");b.innerHTML="";
+ $("controls").style.display=topic==="temperature"?"block":"none";
+ if(topic==="temperature"){
+  $("tempVal").textContent=t.toFixed(1)+" °C";
+  [block("MULAI"),arrow(),block("INPUT: baca suhu sensor","process"),arrow(),block("KEPUTUSAN: suhu ≥ 40?","decision"),arrow(),block("Jika YA: BAHAYA | Jika TIDAK: periksa suhu ≥ 35","decision"),arrow(),block("OUTPUT: "+status(t),"process"),arrow(),block("SELESAI")].forEach(x=>b.append(x));
+  $("pseudo").textContent="BACA suhu\nJIKA suhu >= 40:\n    status = BAHAYA\nJIKA TIDAK, JIKA suhu >= 35:\n    status = WASPADA\nSELAIN ITU:\n    status = NORMAL\nTAMPILKAN status";
+  $("code").textContent=lang==="python"?'suhu = '+t.toFixed(1)+'\n\nif suhu >= 40:\n    status = "BAHAYA"\nelif suhu >= 35:\n    status = "WASPADA"\nelse:\n    status = "NORMAL"\n\nprint(status)':'fn main() {\n    let suhu: f32 = '+t.toFixed(1)+';\n    let status = if suhu >= 40.0 { "BAHAYA" }\n        else if suhu >= 35.0 { "WASPADA" }\n        else { "NORMAL" };\n    println!("{status}");\n}';
+  $("result").textContent="Hasil simulasi: "+status(t)+". Kondisi diperiksa dari atas ke bawah.";
+  $("question").textContent="Jika suhu "+t.toFixed(1)+"°C, status apa yang dihasilkan?";
+  lastStatus=status(t);
+ }else if(topic==="loop"){
+  ["MULAI","PROSES: angka = 1","KEPUTUSAN: angka ≤ 5?","YA: tampilkan angka","PROSES: angka = angka + 1","Kembali ke pemeriksaan","TIDAK: SELESAI"].forEach((x,i)=>b.append(block(x,i===2?"decision":i===3||i===4?"process":"")));
+  $("pseudo").textContent="angka = 1\nSELAMA angka <= 5:\n    TAMPILKAN angka\n    angka = angka + 1\nSELESAI";
+  $("code").textContent=lang==="python"?"for angka in range(1, 6):\n    print(angka)":"fn main() {\n    for angka in 1..=5 {\n        println!(\"{angka}\");\n    }\n}";
+  $("result").textContent="Hasil simulasi: 1, 2, 3, 4, 5. Setelah angka menjadi 6, kondisi salah dan loop berhenti.";
+  $("question").textContent="Berapa angka terakhir yang ditampilkan oleh perulangan 1 sampai 5?";
+  lastStatus="5";
+ }else{
+  ["MULAI","INPUT: nama pengguna","PROSES: simpan nama","OUTPUT: tampilkan salam","SELESAI"].forEach((x,i)=>b.append(block(x,i===1?"decision":i===2?"process":"")));
+  $("pseudo").textContent="MINTA nama pengguna\nSIMPAN nama\nTAMPILKAN 'Halo' dan nama";
+  $("code").textContent=lang==="python"?'nama = input("Nama: ")\nprint("Halo,", nama)': 'use std::io;\n\nfn main() {\n    let mut nama = String::new();\n    io::stdin().read_line(&mut nama).expect("Gagal membaca input");\n    println!("Halo, {}", nama.trim());\n}';
+  $("result").textContent="Alur input-output siap. Pada program nyata, pengguna mengetik nama saat program berjalan.";
+  $("question").textContent="Pada alur salam, langkah apa yang dilakukan sebelum menampilkan salam?";
+  lastStatus="INPUT";
+ }
+ $("answer").value="";$("feedback").textContent="";
+}
+$("run").addEventListener("click",()=>{render();$("blocks").querySelectorAll(".block").forEach((el,i)=>{if(i%2===0)el.classList.add("active")})});
+$("reset").addEventListener("click",()=>{$("temp").value=37.5;$("topic").value="temperature";$("language").value="python";render()});
+$("topic").addEventListener("change",render);$("temp").addEventListener("input",render);$("language").addEventListener("change",render);
+$("check").addEventListener("click",()=>{
+ const topic=$("topic").value,answer=$("answer").value;
+ const expected=topic==="temperature"?lastStatus:topic==="loop"?"5":"INPUT";
+ $("feedback").textContent=answer===expected?"Benar. Sekarang jelaskan mengapa hasil tersebut benar.":"Belum tepat. Periksa kembali urutan blok dan kondisi, lalu coba lagi.";
+ $("feedback").style.color=answer===expected?"#087443":"#b45309";
+});
+render();
+</script>
+</body></html>
