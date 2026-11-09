@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+target/
+capstone/output/*.csv
+capstone/output/*.png
+capstone/data/*.jsonl
